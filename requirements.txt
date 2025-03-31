@@ -1,0 +1,16 @@
+pip==25.0.1
+streamlit==1.39.0
+pandas==2.2.3
+plotly==5.18.0
+yfinance==0.2.46
+ta==0.11.0
+scikit-learn==1.5.2
+xgboost==2.1.1
+vaderSentiment==3.3.2
+numpy==1.26.3
+transformers==4.48.0
+openai==1.62.0
+beautifulsoup4==4.12.3
+torch==2.2.0
+requests==2.31.0
+pytz==2024.1
