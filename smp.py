@@ -80,19 +80,34 @@ if 'portfolio' not in st.session_state:
     st.session_state.portfolio = {}
 
 # Sidebar inputs
-stocks = ('AAPL', 'ADA-USD', 'BNB-USD', 'DOGE-USD', 'ETH-USD', 'GOOG', 'HDFCBANK.NS', 'MSFT', 'USDT-USD', 'XRP-USD',
- 'SPY',
- 'USDC-USD',
- 'TON11419-USD',
- 'SHIB-USD',
- 'TRX-USD',
- 'WTRX-USD',
- 'WBTC-USD',
- 'DOT-USD',
- 'BCH-USD',
- 'LINK-USD',
- 'NEAR-USD',
- 'MATIC-USD',
+stocks = (
+    'AAPL',     # Apple
+    'MSFT',     # Microsoft
+    'GOOGL',    # Google
+    'AMZN',     # Amazon
+    'META',     # Meta (Facebook)
+    'TSLA',     # Tesla
+    'NVDA',     # NVIDIA
+    'JPM',      # JPMorgan Chase
+    'V',        # Visa
+    'WMT',      # Walmart
+    'JNJ',      # Johnson & Johnson
+    'PG',       # Procter & Gamble
+    'MA',       # Mastercard
+    'HD',       # Home Depot
+    'BAC',      # Bank of America
+    'DIS',      # Disney
+    'NFLX',     # Netflix
+    'INTC',     # Intel
+    'VZ',       # Verizon
+    'KO',       # Coca-Cola
+    'PEP',      # PepsiCo
+    'ADBE',     # Adobe
+    'CSCO',     # Cisco
+    'NKE',      # Nike
+    'MCD',      # McDonald's
+    'SPY',      # S&P 500 ETF
+    'QQQ',      # Nasdaq ETF
  )
 st.sidebar.header('Input Parameters')
 # st.selectbox('Select dataset for prediction', stocks)
